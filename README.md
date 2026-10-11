@@ -1,3 +1,4 @@
+<img width="128" height="32" alt="bearnie" src="https://github.com/user-attachments/assets/7d1f1ab9-9e3a-4681-bad8-1ec28a5ac31c" />
 ## Bearnie
 Bearnie is a simple desktop pet created in 10 hours for the Hack Club "Playground" Event. (ENDED OCTOBER 12, 2026)
 
