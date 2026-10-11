@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# exported builds (too big for git; see builds/BEARNIE.zip)
+*.x86_64
+*.exe
+*.pck
+addons/.godot_ai_update/

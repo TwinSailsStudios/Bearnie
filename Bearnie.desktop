@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Bearnie
+Comment=A little bear that lives on your desktop
+Exec=/home/pdash/bearnie/build/Bearnie.x86_64
+Icon=/home/pdash/bearnie/icon.png
+Terminal=false
+Categories=Game;

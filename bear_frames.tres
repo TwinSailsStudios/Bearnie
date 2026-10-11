@@ -1,0 +1,785 @@
+[gd_resource type="SpriteFrames" load_steps=55 format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/angry.png" id="1_angry"]
+[ext_resource type="Texture2D" path="res://sprites/blink.png" id="2_blink"]
+[ext_resource type="Texture2D" path="res://sprites/bliss.png" id="3_bliss"]
+[ext_resource type="Texture2D" path="res://sprites/bloom.png" id="4_bloom"]
+[ext_resource type="Texture2D" path="res://sprites/bored.png" id="5_bored"]
+[ext_resource type="Texture2D" path="res://sprites/cheer.png" id="6_cheer"]
+[ext_resource type="Texture2D" path="res://sprites/cold.png" id="7_cold"]
+[ext_resource type="Texture2D" path="res://sprites/cool.png" id="8_cool"]
+[ext_resource type="Texture2D" path="res://sprites/cry.png" id="9_cry"]
+[ext_resource type="Texture2D" path="res://sprites/dead.png" id="10_dead"]
+[ext_resource type="Texture2D" path="res://sprites/dizzy.png" id="11_dizzy"]
+[ext_resource type="Texture2D" path="res://sprites/eat1.png" id="12_eat1"]
+[ext_resource type="Texture2D" path="res://sprites/eat2.png" id="13_eat2"]
+[ext_resource type="Texture2D" path="res://sprites/glasses.png" id="14_glasses"]
+[ext_resource type="Texture2D" path="res://sprites/halfBlink.png" id="15_halfBlink"]
+[ext_resource type="Texture2D" path="res://sprites/happy.png" id="16_happy"]
+[ext_resource type="Texture2D" path="res://sprites/heartEyes.png" id="17_heartEyes"]
+[ext_resource type="Texture2D" path="res://sprites/hungry.png" id="18_hungry"]
+[ext_resource type="Texture2D" path="res://sprites/idle.png" id="19_idle"]
+[ext_resource type="Texture2D" path="res://sprites/jump.png" id="20_jump"]
+[ext_resource type="Texture2D" path="res://sprites/kiss.png" id="21_kiss"]
+[ext_resource type="Texture2D" path="res://sprites/laugh.png" id="22_laugh"]
+[ext_resource type="Texture2D" path="res://sprites/lookDown.png" id="23_lookDown"]
+[ext_resource type="Texture2D" path="res://sprites/lookL.png" id="24_lookL"]
+[ext_resource type="Texture2D" path="res://sprites/lookR.png" id="25_lookR"]
+[ext_resource type="Texture2D" path="res://sprites/lookUp.png" id="26_lookUp"]
+[ext_resource type="Texture2D" path="res://sprites/love.png" id="27_love"]
+[ext_resource type="Texture2D" path="res://sprites/music.png" id="28_music"]
+[ext_resource type="Texture2D" path="res://sprites/nap1.png" id="29_nap1"]
+[ext_resource type="Texture2D" path="res://sprites/nap2.png" id="30_nap2"]
+[ext_resource type="Texture2D" path="res://sprites/nap3.png" id="31_nap3"]
+[ext_resource type="Texture2D" path="res://sprites/nervous.png" id="32_nervous"]
+[ext_resource type="Texture2D" path="res://sprites/sad.png" id="33_sad"]
+[ext_resource type="Texture2D" path="res://sprites/scared.png" id="34_scared"]
+[ext_resource type="Texture2D" path="res://sprites/shine.png" id="35_shine"]
+[ext_resource type="Texture2D" path="res://sprites/shy.png" id="36_shy"]
+[ext_resource type="Texture2D" path="res://sprites/sick.png" id="37_sick"]
+[ext_resource type="Texture2D" path="res://sprites/sleep.png" id="38_sleep"]
+[ext_resource type="Texture2D" path="res://sprites/sleepy.png" id="39_sleepy"]
+[ext_resource type="Texture2D" path="res://sprites/smug.png" id="40_smug"]
+[ext_resource type="Texture2D" path="res://sprites/sneeze.png" id="41_sneeze"]
+[ext_resource type="Texture2D" path="res://sprites/starry.png" id="42_starry"]
+[ext_resource type="Texture2D" path="res://sprites/surprised.png" id="43_surprised"]
+[ext_resource type="Texture2D" path="res://sprites/talk.png" id="44_talk"]
+[ext_resource type="Texture2D" path="res://sprites/thinking.png" id="45_thinking"]
+[ext_resource type="Texture2D" path="res://sprites/tongue.png" id="46_tongue"]
+[ext_resource type="Texture2D" path="res://sprites/walkL.png" id="47_walkL"]
+[ext_resource type="Texture2D" path="res://sprites/walkM1.png" id="48_walkM1"]
+[ext_resource type="Texture2D" path="res://sprites/walkM2.png" id="49_walkM2"]
+[ext_resource type="Texture2D" path="res://sprites/walkR.png" id="50_walkR"]
+[ext_resource type="Texture2D" path="res://sprites/wave.png" id="51_wave"]
+[ext_resource type="Texture2D" path="res://sprites/wilt.png" id="52_wilt"]
+[ext_resource type="Texture2D" path="res://sprites/wink.png" id="53_wink"]
+[ext_resource type="Texture2D" path="res://sprites/yawn.png" id="54_yawn"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 40.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_halfBlink")
+}, {
+"duration": 1.5,
+"texture": ExtResource("2_blink")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_halfBlink")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("47_walkL")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_walkM1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_walkR")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_walkM2")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("39_sleepy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_halfBlink")
+}, {
+"duration": 2.0,
+"texture": ExtResource("38_sleep")
+}],
+"loop": false,
+"name": &"fall_asleep",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_nap1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_nap2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_nap3")
+}],
+"loop": true,
+"name": &"nap",
+"speed": 1.5
+}, {
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("43_surprised")
+}, {
+"duration": 4.0,
+"texture": ExtResource("54_yawn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_halfBlink")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}],
+"loop": false,
+"name": &"wake",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_eat1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_eat2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_eat1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_eat2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_eat1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_eat2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_eat1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_eat2")
+}, {
+"duration": 4.0,
+"texture": ExtResource("16_happy")
+}],
+"loop": false,
+"name": &"eat",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_halfBlink")
+}, {
+"duration": 4.0,
+"texture": ExtResource("54_yawn")
+}, {
+"duration": 2.0,
+"texture": ExtResource("39_sleepy")
+}],
+"loop": false,
+"name": &"yawn",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("51_wave")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_cheer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_wave")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_cheer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_wave")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_cheer")
+}],
+"loop": false,
+"name": &"wave",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_music")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_happy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_music")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_happy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_music")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_happy")
+}],
+"loop": false,
+"name": &"music",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("26_lookUp")
+}, {
+"duration": 6.0,
+"texture": ExtResource("45_thinking")
+}],
+"loop": false,
+"name": &"thinking",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": ExtResource("5_bored")
+}, {
+"duration": 2.0,
+"texture": ExtResource("39_sleepy")
+}],
+"loop": false,
+"name": &"bored",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 3.0,
+"texture": ExtResource("24_lookL")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 3.0,
+"texture": ExtResource("25_lookR")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 2.0,
+"texture": ExtResource("26_lookUp")
+}, {
+"duration": 2.0,
+"texture": ExtResource("23_lookDown")
+}],
+"loop": false,
+"name": &"lookaround",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("39_sleepy")
+}, {
+"duration": 2.0,
+"texture": ExtResource("54_yawn")
+}, {
+"duration": 3.0,
+"texture": ExtResource("41_sneeze")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}],
+"loop": false,
+"name": &"sneeze",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_cheer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_jump")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_cheer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_jump")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_cheer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_jump")
+}],
+"loop": false,
+"name": &"cheer",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_lookUp")
+}, {
+"duration": 5.0,
+"texture": ExtResource("42_starry")
+}],
+"loop": false,
+"name": &"starry",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("35_shine")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 2.0,
+"texture": ExtResource("35_shine")
+}],
+"loop": false,
+"name": &"shine",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 6.0,
+"texture": ExtResource("4_bloom")
+}],
+"loop": false,
+"name": &"bloom",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("44_talk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 2.0,
+"texture": ExtResource("44_talk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_talk")
+}, {
+"duration": 2.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_talk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 2.0,
+"texture": ExtResource("44_talk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_idle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_talk")
+}, {
+"duration": 2.0,
+"texture": ExtResource("19_idle")
+}],
+"loop": false,
+"name": &"talk",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 8.0,
+"texture": ExtResource("14_glasses")
+}],
+"loop": false,
+"name": &"glasses",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": ExtResource("8_cool")
+}],
+"loop": false,
+"name": &"cool",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("46_tongue")
+}],
+"loop": false,
+"name": &"tongue",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 5.0,
+"texture": ExtResource("40_smug")
+}],
+"loop": false,
+"name": &"smug",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("16_happy")
+}],
+"loop": false,
+"name": &"happy",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("27_love")
+}, {
+"duration": 2.0,
+"texture": ExtResource("17_heartEyes")
+}, {
+"duration": 2.0,
+"texture": ExtResource("3_bliss")
+}],
+"loop": false,
+"name": &"love",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_laugh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_happy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_laugh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_happy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_laugh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_happy")
+}],
+"loop": false,
+"name": &"laugh",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("21_kiss")
+}],
+"loop": false,
+"name": &"kiss",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 5.0,
+"texture": ExtResource("36_shy")
+}],
+"loop": false,
+"name": &"shy",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("53_wink")
+}],
+"loop": false,
+"name": &"wink",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": ExtResource("1_angry")
+}],
+"loop": false,
+"name": &"angry",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": ExtResource("11_dizzy")
+}],
+"loop": false,
+"name": &"dizzy",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_scared")
+}],
+"loop": true,
+"name": &"held",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 3.0,
+"texture": ExtResource("43_surprised")
+}],
+"loop": false,
+"name": &"land",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("18_hungry")
+}, {
+"duration": 2.0,
+"texture": ExtResource("52_wilt")
+}, {
+"duration": 2.0,
+"texture": ExtResource("33_sad")
+}],
+"loop": false,
+"name": &"hungry",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("33_sad")
+}, {
+"duration": 4.0,
+"texture": ExtResource("9_cry")
+}, {
+"duration": 2.0,
+"texture": ExtResource("33_sad")
+}],
+"loop": false,
+"name": &"lonely",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("2_blink")
+}],
+"loop": false,
+"name": &"blink",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("3_bliss")
+}],
+"loop": false,
+"name": &"bliss",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("7_cold")
+}],
+"loop": false,
+"name": &"cold",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("9_cry")
+}],
+"loop": false,
+"name": &"cry",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("10_dead")
+}],
+"loop": false,
+"name": &"dead",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("12_eat1")
+}],
+"loop": false,
+"name": &"eat1",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("13_eat2")
+}],
+"loop": false,
+"name": &"eat2",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("15_halfBlink")
+}],
+"loop": false,
+"name": &"halfBlink",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("17_heartEyes")
+}],
+"loop": false,
+"name": &"heartEyes",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("20_jump")
+}],
+"loop": false,
+"name": &"jump",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("23_lookDown")
+}],
+"loop": false,
+"name": &"lookDown",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("24_lookL")
+}],
+"loop": false,
+"name": &"lookL",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("25_lookR")
+}],
+"loop": false,
+"name": &"lookR",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("26_lookUp")
+}],
+"loop": false,
+"name": &"lookUp",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("29_nap1")
+}],
+"loop": false,
+"name": &"nap1",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("30_nap2")
+}],
+"loop": false,
+"name": &"nap2",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("31_nap3")
+}],
+"loop": false,
+"name": &"nap3",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("32_nervous")
+}],
+"loop": false,
+"name": &"nervous",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("33_sad")
+}],
+"loop": false,
+"name": &"sad",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("34_scared")
+}],
+"loop": false,
+"name": &"scared",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("37_sick")
+}],
+"loop": false,
+"name": &"sick",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("38_sleep")
+}],
+"loop": false,
+"name": &"sleep",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("39_sleepy")
+}],
+"loop": false,
+"name": &"sleepy",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("43_surprised")
+}],
+"loop": false,
+"name": &"surprised",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("47_walkL")
+}],
+"loop": false,
+"name": &"walkL",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("48_walkM1")
+}],
+"loop": false,
+"name": &"walkM1",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("49_walkM2")
+}],
+"loop": false,
+"name": &"walkM2",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("50_walkR")
+}],
+"loop": false,
+"name": &"walkR",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("52_wilt")
+}],
+"loop": false,
+"name": &"wilt",
+"speed": 2.0
+}]

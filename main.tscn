@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://pet.gd" id="1_pet"]
+[ext_resource type="SpriteFrames" path="res://bear_frames.tres" id="2_frames"]
+
+[node name="Pet" type="Node2D"]
+script = ExtResource("1_pet")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(64, 64)
+scale = Vector2(4, 4)
+sprite_frames = ExtResource("2_frames")
+animation = &"idle"
+autoplay = "idle"
