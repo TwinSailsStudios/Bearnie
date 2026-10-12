@@ -1,10 +1,4 @@
 extends Node2D
-## Bearnie desktop pet.
-## Made by Pratik Dash
-## Left click = pet, left drag = pick up/throw, right click = menu, middle click = quit.
-## Swipe the cursor across him fast to bonk him. Toys live in the right-click "Toy box".
-## Watches your cursor, chases it, jumps up and hangs off it (you keep full control —
-## the bear only moves its own window), and eats files you drop on it (files are untouched).
 
 const PX := 4                  # sprite scale (32px art -> 128px window)
 const SIZE := 32 * PX
